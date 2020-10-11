@@ -1,2 +1,5 @@
 # Python
- Aulas e exercicios de python resolvido por mim.
+ Projetos iniciantes e exercicios de python resolvidos por mim.
+
+
+Obrigado Curso em Video!
