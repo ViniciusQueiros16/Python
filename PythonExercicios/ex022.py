@@ -1,0 +1,8 @@
+print('\033[35m='*12, '\033[36mManipulando texto', '\033[35m='*12)
+nome = str(input('Digite seu nome completo: ')).strip()
+print(f'\033[36mSeu nome em maiculo é {nome.upper()}.')
+print(f'Seu nome em minusculas é {nome.lower()}.')
+espaço = nome.count(' ')
+print(f'Seu nome tem ao todo {len(nome) - espaço} letras.')
+dividido = nome.split()
+print(f'O primeiro nome é {dividido[0]} e ele tem {len(dividido[0])} letras.')
